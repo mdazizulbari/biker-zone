@@ -16,6 +16,9 @@
       tailwind.config = {
         theme: {
           extend: {
+            fontFamily: {
+              poppins: ["Poppins", "serif"],
+            },
             colors: {
               primary: "#E76F51",
               "primary-bg": "rgba(231, 111, 81, 0.1)",
@@ -32,7 +35,7 @@
       rel="stylesheet"
     />
   </head>
-  <body>
+  <body class="font-poppins">
     <!-- Header Section -->
     <header class="container px-5 mx-auto">
       <nav>
@@ -190,11 +193,17 @@
           <div class="divider divider-error mt-0 w-10 self-center"></div>
         </div>
         <!-- Bikes Container -->
-         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center mt-20">
-          <img class="grayscale" src="images/others/feature-bike.png" alt="">
-          <img class="grayscale-0" src="images/others/feature-bike.png" alt="">
-          <img class="grayscale" src="images/others/feature-bike.png" alt="">
-         </div>
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center mt-20"
+        >
+          <img class="grayscale" src="images/others/feature-bike.png" alt="" />
+          <img
+            class="grayscale-0"
+            src="images/others/feature-bike.png"
+            alt=""
+          />
+          <img class="grayscale" src="images/others/feature-bike.png" alt="" />
+        </div>
       </section>
 
       <!-- Latest bikes section -->
@@ -267,9 +276,7 @@
             <figure class="px-10 pt-10">
               <div class="avatar">
                 <div class="w-36 rounded-full">
-                  <img
-                    src="images/others/user-3.png"
-                  />
+                  <img src="images/others/user-3.png" />
                 </div>
               </div>
             </figure>
@@ -315,9 +322,7 @@
             <figure class="px-10 pt-10">
               <div class="avatar">
                 <div class="w-36 rounded-full">
-                  <img
-                    src="images/others/user-2.png"
-                  />
+                  <img src="images/others/user-2.png" />
                 </div>
               </div>
             </figure>
@@ -363,9 +368,7 @@
             <figure class="px-10 pt-10">
               <div class="avatar">
                 <div class="w-36 rounded-full">
-                  <img
-                    src="images/others/user-1.png"
-                  />
+                  <img src="images/others/user-1.png" />
                 </div>
               </div>
             </figure>
